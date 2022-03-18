@@ -20,7 +20,7 @@
   --bs-purple: #7E11BC;
   --bs-pink: #F8A2FF;
   --bs-red: #FF705C;
-  --bs-orange: #B98F7D;
+  --bs-orange: #ffffff;
   --bs-yellow: #FFA15C;
   --bs-green: #19CC61;
   --bs-teal: #00D9B0;
@@ -28,7 +28,7 @@
   --bs-white: #FFFEFE;
   --bs-gray: #9E9E9E;
   --bs-gray-dark: #616161;
-  --bs-primary: #B98F7D;
+  --bs-primary: #ffffff;
   --bs-secondary: #9E9E9E;
   --bs-success: #19CC61;
   --bs-info: #00A1FC;
@@ -2873,8 +2873,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .form-check-input:checked[type="checkbox"] {
@@ -2886,8 +2886,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23FFFEFE' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -2983,7 +2983,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #B98F7D;
+  background-color: #ffffff;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3018,7 +3018,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #B98F7D;
+  background-color: #ffffff;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3494,8 +3494,8 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -3529,8 +3529,8 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-secondary {
@@ -3821,14 +3821,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary {
-  color: #B98F7D;
-  border-color: #B98F7D;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-outline-primary:hover {
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
@@ -3839,8 +3839,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn-check:checked + .btn-outline-primary:focus,
@@ -3850,7 +3850,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: #B98F7D;
+  color: #ffffff;
   background-color: transparent;
 }
 
@@ -4433,7 +4433,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #FFFEFE;
   text-decoration: none;
-  background-color: #B98F7D;
+  background-color: #ffffff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4478,7 +4478,7 @@ fieldset:disabled .btn {
 
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #FFFEFE;
-  background-color: #B98F7D;
+  background-color: #ffffff;
 }
 
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
@@ -5089,11 +5089,11 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-brand {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -5110,7 +5110,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .navbar-light .navbar-toggler {
@@ -5129,7 +5129,7 @@ fieldset:disabled .btn {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-brand {
@@ -5442,8 +5442,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .page-item.disabled .page-link {
@@ -5665,7 +5665,7 @@ fieldset:disabled .btn {
   color: #FFFEFE;
   text-align: center;
   white-space: nowrap;
-  background-color: #B98F7D;
+  background-color: #ffffff;
   -webkit-transition: width 0.6s ease;
   -o-transition: width 0.6s ease;
   transition: width 0.6s ease;
@@ -5766,8 +5766,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #FFFEFE;
-  background-color: #B98F7D;
-  border-color: #B98F7D;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 .list-group-item + .list-group-item {
@@ -6997,7 +6997,7 @@ fieldset:disabled .btn {
   margin-right: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #B98F7D;
+  background-color: #ffffff;
   background-clip: padding-box;
   border: 0;
   border-top: 0 solid transparent;
@@ -7278,7 +7278,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .link-primary:hover, .link-primary:focus {
@@ -7790,7 +7790,7 @@ fieldset:disabled .btn {
 }
 
 .border-primary {
-  border-color: #B98F7D !important;
+  border-color: #ffffff !important;
 }
 
 .border-secondary {
@@ -9465,7 +9465,7 @@ fieldset:disabled .btn {
   white-space: nowrap !important;
 }
 .text-primary {
-  color: #B98F7D !important;
+  color: #ffffff !important;
 }
 
 .text-secondary {
@@ -9593,7 +9593,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #B98F7D !important;
+  background-color: #ffffff !important;
 }
 
 .bg-secondary {
@@ -17760,8 +17760,8 @@ ul {
 }
 
 .circle-primary:before {
-  -webkit-box-shadow: 0 0 18.75rem 6.25rem #B98F7D;
-  box-shadow: 0 0 18.75rem 6.25rem #B98F7D;
+  -webkit-box-shadow: 0 0 18.75rem 6.25rem #ffffff;
+  box-shadow: 0 0 18.75rem 6.25rem #ffffff;
 }
 
 .circle-pink:before {
@@ -18010,7 +18010,7 @@ ul {
 |   Custom circle
 -----------------------------------------------*/
 .circle-dashed {
-  border: 1px dashed #B98F7D;
+  border: 1px dashed #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18133,7 +18133,7 @@ ul {
 }
 
 .terms-sidebar .nav-link.active {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .icon {
@@ -18149,7 +18149,7 @@ ul {
 }
 
 .icon-primary {
-  color: #B98F7D;
+  color: #ffffff;
 }
 
 .icon-secondary {
@@ -18207,8 +18207,8 @@ ul {
 }
 
 .btn-gradient:hover {
-  -webkit-box-shadow: 0 10px 20px #F8A2FF, 0 6px 6px #B98F7D;
-  box-shadow: 0 10px 20px #F8A2FF, 0 6px 6px #B98F7D;
+  -webkit-box-shadow: 0 10px 20px #F8A2FF, 0 6px 6px #ffffff;
+  box-shadow: 0 10px 20px #F8A2FF, 0 6px 6px #ffffff;
 }
 
 .btn-theme-outline {
@@ -18225,8 +18225,8 @@ ul {
   bottom: 0;
   background-image: inherit;
   background-size: auto;
-  background: -o-linear-gradient(-40deg, #B98F7D, #B98F7D);
-  background: linear-gradient(-50deg, #B98F7D, #B98F7D);
+  background: -o-linear-gradient(-40deg, #ffffff, #ffffff);
+  background: linear-gradient(-50deg, #ffffff, #ffffff);
   -webkit-mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
   mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
 }
