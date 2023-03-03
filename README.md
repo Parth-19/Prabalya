@@ -1,2 +1,1 @@
-## Prabalya Sports Fest, NMIMS Navi Mumbai
-###By Parth Maheshwari
+# Prabalya-2.0
